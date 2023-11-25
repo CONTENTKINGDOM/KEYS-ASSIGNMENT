@@ -74,6 +74,6 @@ if (blogTitle && blogContent) {
 } else {
   // Handle the case where parameters are missing or invalid
   if (fullBlogContentElement != null) {
-    fullBlogContentElement.innerHTML = "<p>Blog not found.</p>";
+    fullBlogContentElement.innerHTML = "<p></p>";
   }
 }
